@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Gawlak</title>
+</head>
+<body>
+    <div class="painelall">
+        <button onclick="scrollar('content')">Home</button>
+        <button onclick="scrollar('infos')">About</button>
+        <button onclick="scrollar('projects')">Projects</button>
+        <button onclick="scrollar('contacts')">Contacts</button>
+    </div>
+    <div class="contentall" id="content">
+        <img src="/imgs/pngtree-modern-circle-shaped-logo-with-star-and-man-png-image_12949321.png" alt="" class="imgme">
+        <h1 class="name">Gustavo Gawlak</h1>
+        <h3>CiberSecurity</h3>
+    </div>
+    <div class="infosall" id="infos">
+        <div class="sobreptbr">
+            <h2>Sobre mim</h2>
+            <p>Estudante de Cibersegurança, com forte raciocínio lógico, perfil autodidata, curioso, dedicado e proativo. Estou sempre em busca de ampliar meus conhecimentos para desenvolver soluções seguras e eficientes. Comprometido com a melhoria contínua, desejo contribuir de forma estratégica e relevante para o fortalecimento da área de cibersegurança.</p>
+        </div>
+        
+        <div class="sobreingl">
+            <h2>About Me</h2>
+            <p>Cybersecurity student with strong logical reasoning, self-taught mindset, curiosity, dedication, and proactivity. Constantly seeking to expand my knowledge to develop secure and efficient solutions. Committed to continuous improvement, aiming to contribute strategically and meaningfully to the advancement of the cybersecurity field.</p>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <div class="objs">
+            <div class="proj">
+                <h2>Projects</h2>
+            </div>
+            <div class="langs">
+                <h2>Langs</h2>
+            </div>
+        </div>
+        <div class="project1">
+            <div class="project1text">
+                <h2><a href="">Titulo Projeto 1</a></h2><!--link do projeto1 no git-->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus beatae temporibus possimus. Aperiam vero hic omnis modi ipsa repudiandae totam in repellat perspiciatis dolore, consectetur odit enim numquam autem iste.</p>
+            </div>
+            <div class="project1img">
+                <p>Rust</p>
+                <img src="/imgs/OIP.jpg" alt=""><!--img do projeto1-->
+            </div>
+        </div>
+        <div class="project2">
+            <div class="project2text">
+                <h2><a href="">Titulo Projeto 2</a></h2> <!--link do projeto2 no git-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores fugiat quae aliquam consequuntur vitae consequatur cupiditate corporis blanditiis fuga dicta magni id, labore, suscipit temporibus minus similique quasi aperiam itaque.</p>
+            </div>
+            <div class="project2img">
+                <p>Rust</p>
+                <img src="/imgs/OIP.jpg" alt=""> <!--img do projeto2-->
+            </div>
+        </div>
+    </div>
+    <div class="contacts" id="contacts">
+        <div>
+            <div>
+                <label>
+                    <img src="/imgs/icons8-github-50.png" alt="" class="git">
+                    GitHub: <a href="https://github.com/GustGlw">GustGlw</a>
+                </label>
+            </div>
+            <div>
+                <label >
+                    <img src="/imgs/icons8-linkedin-24.png" alt="" class="linkedin">
+                    Linkedlin: <a href="https://www.linkedin.com/in/gustavo-gawlak-6b5a7121a/">Gustavo Gawlak</a>
+                </label>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script>
+        function scrollar(alt) {
+        document.getElementById(alt).scrollIntoView({
+        behavior: 'smooth'
+        });
+        }
+    </script>
+</body>
+</html>
